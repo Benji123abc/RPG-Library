@@ -4,6 +4,7 @@ public class Character {
 
   public void setHome(Place, home) {
     currentHome = home;
+    Place.addPersonInPlace(this);
   }
   public Place getHome() {
     return currentHome;
